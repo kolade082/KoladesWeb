@@ -102,7 +102,7 @@ footer{
     justify-content: center;
     font-weight: bold;
 }
-.portfolio-body{
+body{
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 0 10%;
@@ -119,14 +119,18 @@ footer{
 {
     background-color: rgb(144, 240, 144);
     width: 30.1%;
-    height: 800px;
+    height: 600px;
     border-radius: 1em;
-    float: left;
     bottom: 200px;
     margin-left: 2%;
     margin-bottom: 40px;
     padding-top: 40px;
     padding-left: 8px;
-    display: inline-flex;
+    display: inline-block;
     font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+.contact-body{
+    grid-template-rows: 15vh;
 }
