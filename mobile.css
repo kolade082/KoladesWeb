@@ -1,7 +1,7 @@
 body{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 0 50%;
+    grid-template-rows: 0 30%;
     grid-template-areas: 
     "header"
     "main"
@@ -9,7 +9,7 @@ body{
     "footer";
 }
 .nav{
-    display: block;
+    display: none;
     position: fixed;
     top: 0;
     left: 60%;
@@ -39,7 +39,6 @@ nav ul li{
     font-weight: bolder;
     color: white;
     text-align: center;
-
 }
 .title{
     position: fixed;
@@ -55,11 +54,27 @@ nav ul li{
     border-radius: 0.5em;
 }
 aside img{
-    width: 60%;
-    height: 50%;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    height: 350px;
+    border-radius: 1em;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+.top p, .bottom p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
 }
 footer{
     text-align: center;
     justify-content: center;
+    font-weight: bold;
+}
+main{
+    background: linear-gradient(rgba(103, 233, 101, 0.5), rgba(4, 129, 108, 0.5)), url(display.jpeg);
+    width: 100%;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
 }
 
