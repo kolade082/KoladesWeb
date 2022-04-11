@@ -1,4 +1,4 @@
-body{
+.index-body{
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 0 70vh;
@@ -25,6 +25,12 @@ nav ul{
 nav ul li{
     list-style: none;
 }
+ul li:hover ul{
+    display: block;
+}
+.on, .off{
+    display: none;
+}
 header{
     position: fixed;
     top: 0;
@@ -35,7 +41,7 @@ header{
     font-size: 35px;
     box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
 }
-main{
+.index-main{
     background: linear-gradient(rgba(103, 233, 101, 0.5), rgba(4, 129, 108, 0.5)), url(display.jpeg);
     width: 100%;
     box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
@@ -95,4 +101,28 @@ footer{
     text-align: center;
     justify-content: center;
     font-weight: bold;
+}
+.portfolio-body{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 0 10%;
+    grid-template-areas: 
+    "header"
+    "main"
+    "aside"
+    "footer" ;
+    background: linear-gradient(rgba(0, 0, 150, 0.5), rgba(0,0,50, 0.5)), url(background.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.csy1018, .csy1019, .csy1020
+{
+    background-color: rgb(144, 240, 144);
+    width: 26.7%;
+    height: 600px;
+    border-radius: 2em;
+    float: left;
+    bottom: 200px;
+    margin-left: 5.2%;
+    margin-bottom: 40px;
 }
