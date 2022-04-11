@@ -1,7 +1,7 @@
 body{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 0 45%;
+    grid-template-rows: 0 50%;
     grid-template-areas: 
     "header"
     "main"
@@ -26,3 +26,23 @@ nav ul li{
     list-style: none;
     padding-top: 10px;
 }
+.welcome{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+.motto{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+
+}
+aside img{
+    width: 60%;
+    height: 50%;
+}
+
