@@ -105,7 +105,7 @@ footer{
 .portfolio-body{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: auto;
+    grid-template-rows: 0 10%;
     grid-template-areas: 
     "header"
     "main"
@@ -114,4 +114,15 @@ footer{
     background: linear-gradient(rgba(0, 0, 150, 0.5), rgba(0,0,50, 0.5)), url(background.jpeg);
     background-size: cover;
     background-position: center;
+}
+.csy1018, .csy1019, .csy1020
+{
+    background-color: rgb(144, 240, 144);
+    width: 26.7%;
+    height: 600px;
+    border-radius: 2em;
+    float: left;
+    bottom: 200px;
+    margin-left: 5.2%;
+    margin-bottom: 40px;
 }
