@@ -1,0 +1,28 @@
+body{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 0 45%;
+    grid-template-areas: 
+    "header"
+    "main"
+    "aside"
+    "footer";
+}
+.nav{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 60%;
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(160, 160, 155);
+}
+nav ul{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+nav ul li{
+    list-style: none;
+    padding-top: 10px;
+}
