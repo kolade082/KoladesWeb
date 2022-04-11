@@ -112,5 +112,29 @@ footer{
     font-size: 30px;
     font-weight: 500;
 }
+.portfolio-body{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 0 3%;
+    grid-template-areas: 
+    "header"
+    "main"
+    "aside"
+    "footer" ;
+}
 
+.csy1018, .csy1019, .csy1020
+{
+    background-color: rgb(144, 240, 144);
+    width: 80%;
+    height: 500px;
+    border-radius: 1em;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 8px;
+    font-weight: bold; 
+    text-align: center;
+    justify-content: center;
+}
 
