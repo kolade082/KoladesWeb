@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding-left: 0;
+}
+header{
+    background-color: rgb(160, 160, 155);
+    grid-area: header;
+}
+main{
+    background: linear-gradient(rgba(0, 0, 150, 0.5), rgba(0,0,50, 0.5));
+    grid-area: main;
+}
+aside{
+    background: linear-gradient(rgba(0, 0, 150, 0.5), rgba(0,0,50, 0.5));
+    grid-area: aside;
+}
+footer{
+    background-color: rgb(160, 160, 155);
+    grid-area: footer;
+}
