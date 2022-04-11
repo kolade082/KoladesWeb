@@ -1,0 +1,65 @@
+body{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 0 50%;
+    grid-template-areas: 
+    "header"
+    "main"
+    "aside"
+    "footer";
+}
+.nav{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 60%;
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(160, 160, 155);
+}
+nav ul{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+nav ul li{
+    list-style: none;
+    padding-top: 10px;
+}
+.welcome{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+.motto{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+
+}
+.title{
+    position: fixed;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(160, 160, 155);
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 0.5em;
+}
+aside img{
+    width: 60%;
+    height: 50%;
+}
+footer{
+    text-align: center;
+    justify-content: center;
+}
+
