@@ -1,4 +1,4 @@
-.index-body{
+body{
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 0 30%;
@@ -7,6 +7,9 @@
     "main"
     "aside"
     "footer";
+}
+.index-body{
+    grid-template-rows: 0 30%;
 }
 .nav{
     display: none;
@@ -113,21 +116,13 @@ footer{
     font-weight: 500;
 }
 .portfolio-body{
-    display: grid;
-    grid-template-columns: 100%;
     grid-template-rows: 0 3%;
-    grid-template-areas: 
-    "header"
-    "main"
-    "aside"
-    "footer" ;
 }
-
 .csy1018, .csy1019, .csy1020
 {
     background-color: rgb(144, 240, 144);
     width: 80%;
-    height: 500px;
+    height: 450px;
     border-radius: 1em;
     margin-left: 10%;
     margin-bottom: 40px;
@@ -136,5 +131,101 @@ footer{
     font-weight: bold; 
     text-align: center;
     justify-content: center;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
 }
-
+.contacts{
+    display: block;
+}
+section h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+} 
+.contact-body{
+    grid-template-rows: 0 10vh;
+}  
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: rgb(221, 218, 218);
+    height: 200px;
+    width: 70%;
+    margin-top: 8%;
+    margin-left: 4%;
+    border-radius: 0.5em;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+.contact-left h1{
+    margin-bottom: 20px;
+}
+.contacts-details{
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: rgb(221, 218, 218);
+    height: 200px;
+    width: 60%;
+    margin-top: 8%;
+    margin-bottom: 6%;
+    margin-left: 7%;
+    border-radius: 0.5em;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+.contacts-details .myinput{
+    flex-basis: 40%;
+    margin-right: 4%;
+}
+input{
+    width: 80%;
+    margin-left: 10%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-bottom: 10px;  
+}
+.message{
+    width: 80%;
+    margin-left: 10%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.submit{  
+    background: blue;
+    border-color: transparent;
+    color: black;
+    width: 80px;
+    outline: none;
+    border-radius: 1em;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 35%;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+tr td:first-child{
+    padding-right: 2px;
+}
+tr td{
+    padding-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.contact-right a{
+    font-size: 40px;
+    letter-spacing: 20px;
+    text-decoration: none;
+    color: black;
+}
+.fa-brands{
+    margin-top: 50px;
+}
