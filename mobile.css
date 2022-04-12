@@ -217,9 +217,8 @@ tr td:first-child{
 }
 tr td{
     padding-top: 20px;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
-    margin-right: 5px;
 }
 .contact-right a{
     font-size: 40px;
