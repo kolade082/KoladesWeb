@@ -130,7 +130,72 @@ body{
     font-weight: bold;
     text-align: center;
     box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}   
+/* .contacts{
+    display: inline-block;
+} */
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
 }
-.contact-body{
-    grid-template-rows: 15vh;
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: rgb(221, 218, 218);
+    height: 300px;
+    margin-top: 8%;
+    margin-right: 5%;
+    border-radius: 0.5em;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+.contacts-details{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.contacts-details .myinput{
+    flex-basis: 40%;
+    margin-right: 4%;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+ .message{
+     width: 80%;
+     margin-left: 10%;
+     border-bottom: 1px solid white;
+     border: none;
+     outline: none;
+     padding: 10px;
+     box-sizing: border-box;
+     text-align: center;
+ }
+ label{
+     margin-bottom: 6px;
+ }
+ .submit{
+     background: blue;
+     border-color: transparent;
+     color: black;
+     width: 100px;
+     outline: none;
+     border-radius: 1em;
+     height: 35px;
+     margin-top: 20px;
+     margin-left: 45%;
+     box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+ }
+.contact-right a{
+    font-size: 80px;
+    letter-spacing: 20px;
+    text-decoration: none;
+    color: black;
 }
