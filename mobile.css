@@ -75,11 +75,15 @@ footer{
     text-align: center;
     justify-content: center;
     font-weight: bold;
-    height: 50px;
+    height: 80px;
     padding-top: 10px;
 }
+.footer-icon{
+    letter-spacing: normal;
+    font-size: 30px;
+}
 .index-main{
-    background: linear-gradient(rgba(88, 236, 86, 0.445), rgba(5, 216, 118, 0.5)), url(display.jpeg);
+    background: linear-gradient(rgba(28, 216, 24, 0.5), rgba(6, 207, 33, 0.5)), url(display.jpeg);
     width: 100%;
     box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
 }
@@ -187,12 +191,12 @@ section h1{
     width: 60%;
     margin-top: 8%;
     margin-bottom: 6%;
-    padding-left: 15%;
+    padding-left: 10%;
     margin-left: 10%;
     border-radius: 0.5em;
-    text-align: center;
     justify-content: center;
     box-shadow: 0px 5px 15px 0px rgba(21, 219, 81, 0.849);
+    display: block;
 }
 .contacts-details .myinput{
     flex-basis: 40%;
@@ -230,22 +234,27 @@ input{
     margin-left: 45%;
     box-shadow: 0px 5px 15px 0px rgba(6, 128, 228, 0.3);
 }
-tr td:first-child{
-    margin-left: 50%;
+.mycontact{
+    display: block;
 }
-tr td{
-    padding-top: 10px;
-    font-size: 13px;
+.contact-content{
+    display: inline-block;
+}
+tr h2, tr p{
+    font-size: 50px;
     font-weight: bold;
 }
 .contact-right a{
     font-size: 40px;
-    letter-spacing: 20px;
     text-decoration: none;
     color: black;
 }
-.fa-brands{
-    margin-top: 50px;
+.contact-icon{
+    margin-top: 12%;
+    margin-left: 11%;
+    text-align: center;
+    justify-content: space-between;
+    letter-spacing: 5px;
 }
 .blog-csy1018, .blog-csy1019, .blog-csy1020
 {

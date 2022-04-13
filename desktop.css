@@ -48,7 +48,7 @@ header{
     box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
 }
 .index-main{
-    background: linear-gradient(rgba(103, 233, 101, 0.5), rgba(4, 129, 108, 0.5)), url(display.jpeg);
+    background: linear-gradient(rgba(28, 216, 24, 0.5), rgba(6, 207, 33, 0.5)), url(display.jpeg);
     width: 100%;
     box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
 }
@@ -107,6 +107,11 @@ footer{
     text-align: center;
     justify-content: center;
     font-weight: bold;
+    height: 50px;
+}
+.footer-icon{
+    letter-spacing: normal;
+    font-size: 30px;
 }
 .portfolio-body, .blog-body{
     grid-template-rows: 10%;
@@ -176,6 +181,7 @@ section h1{
     margin-right: 5%;
     border-radius: 0.8em;
     box-shadow: 0px 5px 15px 0px rgba(21, 219, 81, 0.849);
+    display: block;
 }
 .contacts-details{
     display: flex;
@@ -223,17 +229,15 @@ label{
     outline: none;
     box-shadow: 0px 5px 15px 0px rgba(6, 128, 228, 0.3);
 }
-
-tr td:first-child{
-    padding-right: 20px;
+.mycontact{
+    display: block;
 }
-tr td{
-    padding-top: 20px;
-    font-size: 20px;
-    font-weight: 500;
+.contact-content{
+    display: inline-block;
 }
-.first-td{
-    font-weight: bolder;
+tr h2, tr p{
+    font-size: 50px;
+    font-weight: bold;
 }
 .contact-right a{
     font-size: 80px;
@@ -241,8 +245,11 @@ tr td{
     text-decoration: none;
     color: black;
 }
-.fa-brands{
-    margin-top: 90px;
+.contact-icon{
+    margin-top: 12%;
+    margin-left: 11%;
+    text-align: center;
+    justify-content: space-between;
 }
 .blog-aside{
     display: flex;
@@ -263,6 +270,7 @@ tr td{
     display: inline-block;
     font-weight: bold;
     text-align: center;
+    justify-content: center;
     box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
 }
 
