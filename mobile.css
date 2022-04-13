@@ -242,7 +242,7 @@ input{
     border-radius: 1em;
     height: 25px;
     margin-top: 20px;
-    margin-left: 45%;
+    margin-left: 40%;
     box-shadow: 0px 5px 15px 0px rgba(6, 128, 228, 0.3);
 }
 .mycontact{
@@ -261,7 +261,6 @@ tr h2, tr p{
     color: black;
 }
 .contact-icon{
-    margin-top: 12%;
     margin-left: 11%;
     text-align: center;
     justify-content: space-between;
