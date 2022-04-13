@@ -12,7 +12,7 @@ body{
     background-position: center;
 }
 .index-body{
-    grid-template-rows: 0 60vh;
+    grid-template-rows: 0 65vh;
 }
 nav{
     display: flex;
@@ -83,6 +83,7 @@ aside img{
 .top p{
     font-size: 50px;
     width: 60%;
+    margin-top: 10%;
     margin-left: 50px;
     color: white;
 }
@@ -96,6 +97,7 @@ aside img{
 .bottom p{
     font-size: 50px;
     width: 50%;
+    margin-top: 10%;
     color: white;
     margin-left: 50px;
 }
@@ -107,11 +109,18 @@ footer{
     text-align: center;
     justify-content: center;
     font-weight: bold;
-    height: 60px;
+    height: 90px;
 }
 .footer-icon{
     letter-spacing: normal;
     font-size: 30px;
+}
+.privacy{
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+    position: relative;
+    top: 40px;
 }
 .portfolio-body, .blog-body{
     grid-template-rows: auto;
@@ -125,7 +134,7 @@ footer{
     bottom: 200px;
     margin-left: 6.67%;
     margin-bottom: 40px;
-    margin-top: 80px;
+    margin-top: 100px;
     padding-top: 40px;
     padding-left: 8px;
     display: inline-block;
@@ -170,7 +179,7 @@ section h1{
     display: flex;
 }
 .contact-left{
-    margin-top: 40px;
+    margin-top: 70px;
     flex-basis: 60%;
     padding: 40px 60px;
 }
@@ -179,7 +188,7 @@ section h1{
     padding: 40px;
     background:  rgb(144, 240, 144);
     height: 300px;
-    margin-top: 8.5%;
+    margin-top: 15%;
     margin-right: 5%;
     border-radius: 0.8em;
     box-shadow: 0px 5px 15px 0px rgba(21, 219, 81, 0.849);
@@ -265,7 +274,7 @@ tr h2, tr p{
     height: 600px;
     border-radius: 1em;
     bottom: 200px;
-    margin-top: 80px;
+    margin-top: 100px;
     margin-left: 2%;
     margin-bottom: 40px;
     padding-top: 40px;
