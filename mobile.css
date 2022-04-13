@@ -124,7 +124,7 @@ footer{
 {
     background-color: rgb(144, 240, 144);
     width: 80%;
-    height: 950px;
+    height: 900px;
     border-radius: 1em;
     margin-left: 10%;
     margin-top: 20px;
@@ -136,12 +136,11 @@ footer{
     justify-content: center;
     box-shadow: 0px 5px 15px 0px rgba(21, 219, 81, 0.849);
 }
-
 .thumbnail-placeholder{
-    width: 90%;
-    margin-left: 4.5%;
-    margin-bottom: 5%;
-    height: 260px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 15%;
+    height: 200px;
     border-radius: 1em;
     background-image: url(pholder.jpeg);
 }
