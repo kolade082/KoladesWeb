@@ -15,7 +15,10 @@
     <header>
         <nav>
             <a href="#" class="title">Kolade's Web</a> 
-            
+            <div class="hamburger">
+                <a href="#showNav" class="on shownav"></a>
+            </div>
+            <div><a href="#" class="off">X</a></div> 
             <ul class="nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
@@ -24,14 +27,8 @@
                 <li><a href="#">Site Report</a></li>
             </ul>
         </nav>
-</header>
-<main class="contact-main">
-    <div class="hamburger">
-        <a href="#showNav" class="on shownav"></a>
-    </div>
-    <a href="#" class="off">X</a>   
-</main>   
-<aside>
+</header> 
+<main>
     <section class="contacts">
         <section class="contact-left">
             <h1>Send your request</h1>
@@ -52,26 +49,34 @@
             </form>
         </section>
         <section class="contact-right">
-            <h1>My Contact</h1>
-            <table>
-                <tr>
-                    <td class="first-td">Email:</td>
-                    <td>koladeoluwadara@gmail.com</td>
+            <div class="mycontact"><h1>My Contact</h1></div>
+            <div>
+            <table class="contact-content">
+                <tr class="mail-phone">
+                    <h2 class="mail">Email:</h2>
+                    <p>koladeoluwadara@gmail.com</p>
                 </tr>
-                <tr>
-                    <td class="first-td">Phone:</td>
-                    <td>+44 7572887155</td>
+                <tr class="mail-phone">
+                    <h2 class="phone">Phone:</h2>
+                    <p>+44 7572887155</p>
                 </tr>
-            
             </table>
+            </div>
+            <div class="contact-icon">
             <a href="https://instagram.com/kolade_oo" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             <a href="https://www.snapchat.com/add/kolade_oo?share_id=OUE5NDVC&locale=en_GB" target="_blank"><i class="fa-brands fa-snapchat"></i></a>
             <a href="https://twitter.com/kolade_oo" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
         </section>  
     </section>        
-</aside>
+</main>
 <footer class="footer">
-    © 2022 by Kolade. Proudly created with Visual Studio
+    <div class="footer-icon">
+        <a href="https://instagram.com/kolade_oo" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.snapchat.com/add/kolade_oo?share_id=OUE5NDVC&locale=en_GB" target="_blank"><i class="fa-brands fa-snapchat"></i></a>
+        <a href="https://twitter.com/kolade_oo" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+    <div>© 2022 by Kolade. Proudly created with Visual Studio</div>
 </footer>
 </body>
 </html>
