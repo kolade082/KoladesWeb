@@ -1,7 +1,7 @@
 body{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 0 30%;
+    grid-template-rows: auto;
     grid-template-areas: 
     "header"
     "main"
@@ -22,12 +22,11 @@ body{
 }
 nav ul{
     font-size: 20px;
-    font-weight: 600;
-    
+    font-weight: 600;    
 }
 nav ul li{
     list-style: none;
-    padding-top: 10px;
+    padding-top: 40px;
     padding-left: 15px;
 }
 .welcome{
@@ -93,7 +92,7 @@ footer{
     display: block;
     border-top: 0.2em solid black;
     border-bottom: 0.2em solid black;
-    margin-top: 0.8em;
+    margin-top: 0.3em;
     position: fixed;
 }
 .shownav:before{
@@ -105,7 +104,20 @@ footer{
 
 }
 .hamburger{
-    padding-left: 10px;
+    padding-right: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 1px;
+    display: flex;
+    justify-content: end;
+}
+.off{
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    padding-left: 6px;
+    display: block;
+    justify-content: start;
 }
 #showNav .on {display: block;}
 #showNav .off {display: none;}
@@ -117,12 +129,8 @@ footer{
 .on, .off{
     display: none;
 }
-.off{
-    font-size: 30px;
-    font-weight: 500;
-}
 .portfolio-body, .blog-body{
-    grid-template-rows: 0 3%;
+    grid-template-rows: auto;
 }
 .portfolio-csy1018, .portfolio-csy1019
 {
@@ -131,7 +139,7 @@ footer{
     height: 900px;
     border-radius: 1em;
     margin-left: 10%;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 40px;
     padding-top: 40px;
     padding-left: 8px;
@@ -173,9 +181,10 @@ section h1{
     color: black;
 } 
 .contact-body{
-    grid-template-rows: 0 10vh;
+    grid-template-rows:auto;
 }  
 .contact-left h1{
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 .contacts-details{
@@ -263,7 +272,7 @@ tr h2, tr p{
     height: 600px;
     border-radius: 1em;
     margin-left: 10%;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 40px;
     padding-top: 40px;
     padding-left: 8px;
