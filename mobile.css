@@ -75,7 +75,8 @@ footer{
     text-align: center;
     justify-content: center;
     font-weight: bold;
-    height: 25px;
+    height: 50px;
+    padding-top: 10px;
 }
 .index-main{
     background: linear-gradient(rgba(88, 236, 86, 0.445), rgba(5, 216, 118, 0.5)), url(display.jpeg);
@@ -116,23 +117,48 @@ footer{
     font-size: 30px;
     font-weight: 500;
 }
-.portfolio-body{
+.portfolio-body, .blog-body{
     grid-template-rows: 0 3%;
 }
-.csy1018, .csy1019, .csy1020
+.portfolio-csy1018, .portfolio-csy1019
 {
     background-color: rgb(144, 240, 144);
     width: 80%;
-    height: 450px;
+    height: 950px;
     border-radius: 1em;
     margin-left: 10%;
+    margin-top: 20px;
     margin-bottom: 40px;
     padding-top: 40px;
     padding-left: 8px;
     font-weight: bold; 
     text-align: center;
     justify-content: center;
-    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+    box-shadow: 0px 5px 15px 0px rgba(21, 219, 81, 0.849);
+}
+
+.thumbnail-placeholder{
+    width: 90%;
+    margin-left: 4.5%;
+    margin-bottom: 5%;
+    height: 260px;
+    border-radius: 1em;
+    background-image: url(pholder.jpeg);
+}
+.profile-placeholder{
+    background-color: rgb(160, 160, 155);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(dpportfolio.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 25%;
+    margin-top: 15px;
+}
+.text-placeholder{
+    display: inline;
+    margin-left: 25%;
 }
 .contacts{
     display: block;
@@ -146,17 +172,6 @@ section h1{
 .contact-body{
     grid-template-rows: 0 10vh;
 }  
-.contact-right{
-    flex-basis: 40%;
-    padding: 40px;
-    background: rgb(221, 218, 218);
-    height: 200px;
-    width: 70%;
-    margin-top: 8%;
-    margin-left: 4%;
-    border-radius: 0.5em;
-    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
-}
 .contact-left h1{
     margin-bottom: 20px;
 }
@@ -168,24 +183,25 @@ section h1{
 .contact-right{
     flex-basis: 40%;
     padding: 40px;
-    background: rgb(221, 218, 218);
+    background:  rgb(144, 240, 144);
     height: 200px;
     width: 60%;
     margin-top: 8%;
     margin-bottom: 6%;
-    margin-left: 15%;
+    padding-left: 15%;
+    margin-left: 10%;
     border-radius: 0.5em;
     text-align: center;
     justify-content: center;
-    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+    box-shadow: 0px 5px 15px 0px rgba(21, 219, 81, 0.849);
 }
 .contacts-details .myinput{
     flex-basis: 40%;
     margin-right: 4%;
 }
 input{
-    width: 80%;
-    margin-left: 10%;
+    width: 60%;
+    margin-left: 20%;
     background: transparent;
     border: none;
     outline: none;
@@ -212,15 +228,15 @@ input{
     border-radius: 1em;
     height: 25px;
     margin-top: 20px;
-    margin-left: 35%;
-    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+    margin-left: 45%;
+    box-shadow: 0px 5px 15px 0px rgba(6, 128, 228, 0.3);
 }
 tr td:first-child{
-    padding-right: 2px;
+    margin-left: 50%;
 }
 tr td{
-    padding-top: 20px;
-    font-size: 12px;
+    padding-top: 10px;
+    font-size: 13px;
     font-weight: bold;
 }
 .contact-right a{
@@ -231,4 +247,20 @@ tr td{
 }
 .fa-brands{
     margin-top: 50px;
+}
+.blog-csy1018, .blog-csy1019, .blog-csy1020
+{
+    background-color: rgb(144, 240, 144);
+    width: 80%;
+    height: 600px;
+    border-radius: 1em;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 8px;
+    font-weight: bold; 
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0px 5px 15px 0px rgba(21, 219, 81, 0.849);
 }
