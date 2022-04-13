@@ -125,6 +125,7 @@ footer{
     display: inline-block;
     font-weight: bold;
     text-align: center;
+    justify-content: center;
     box-shadow: 0px 5px 15px 0px rgba(21, 219, 81, 0.849);
 }
 .thumbnail-placeholder{
