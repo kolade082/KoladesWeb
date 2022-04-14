@@ -31,8 +31,11 @@ nav ul{
 nav ul li{
     list-style: none;
 }
-ul li:hover ul{
+.nav li:hover {
     display: block;
+    background: linear-gradient(rgba(95, 95, 221, 0.5), rgba(24, 24, 228, 0.5));
+    border-radius: 1em;
+    padding: 2%;
 }
 .on, .off{
     display: none;
@@ -127,7 +130,7 @@ footer{
 }
 .portfolio-csy1018, .portfolio-csy1019
 {   
-    background-color: rgb(144, 240, 144);
+    background:  linear-gradient(rgba(97, 226, 147, 0.5), rgba(3, 109, 100, 0.5)), url(background.jpeg);
     width: 40%;
     height: 860px;
     border-radius: 1em;
@@ -213,6 +216,7 @@ input{
     text-align: center;
     padding-bottom: 10px;
     padding-top: 30px;
+    transition: .4s solid ease-in-out;
 }
 .message{
     width: 80%;
@@ -270,6 +274,7 @@ tr h2, tr p{
 .blog-csy1018, .blog-csy1019, .blog-csy1020
 {
     background-color: rgb(144, 240, 144);
+    color: white;
     width: 30.1%;
     height: 600px;
     border-radius: 1em;
@@ -285,4 +290,16 @@ tr h2, tr p{
     justify-content: center;
     box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
 }
-
+.portfolio-csy1018:hover, .portfolio-csy1019:hover {
+    border-radius: 5px;
+    border: 5px solid white;
+}
+.csy1018-main, .csy1019-main{
+    margin-top: 100px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(144, 240, 144);
+}

@@ -8,13 +8,9 @@ body{
     "aside"
     "footer";
 }
-.index-body{
-    grid-template-rows: 0 30%;
-}
 .nav{
     display: none;
     position: fixed;
-    top: 0;
     left: 60%;
     width: 40%;
     height: 100vh;
@@ -26,8 +22,13 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    padding-top: 40px;
-    padding-left: 15px;
+    padding: 10px;
+}
+.nav li:hover {
+    display: block;
+    border-radius: 5px;
+    height: 20px;
+    background-color: white;
 }
 .welcome{
     font-size: 50px;
@@ -92,8 +93,8 @@ footer{
     height: 0.8em;
     width: 1.25em;
     display: block;
-    border-top: 0.2em solid black;
-    border-bottom: 0.2em solid black;
+    border-top: 0.2em solid white;
+    border-bottom: 0.2em solid white;
     margin-top: 0.3em;
     position: fixed;
 }
@@ -102,8 +103,7 @@ footer{
     position: absolute;
     width: 1.25em;
     margin-top: 0.3em;
-    border-top: 0.2em solid black;
-
+    border-top: 0.2em solid white;
 }
 .hamburger{
     padding-right: 4px;
@@ -116,29 +116,34 @@ footer{
 .off{
     font-size: 30px;
     font-weight: 600;
-    position: relative;
+    position:fixed;
     padding-left: 6px;
     display: block;
     justify-content: start;
+    color: white;
 }
-#showNav .on {display: block;}
-#showNav .off {display: none;}
+#showNav .on,
+#showNav:target .off{
+    display: block;
+}
 
-#showNav:target .on{display: none;}
-#showNav:target .off{display: block;}
+#showNav .off,
+#showNav:target .on{
+    display: none;
+}
 
-#showNav:target .nav{display: block;}
+#showNav:target .nav{
+    display: block;
+    }
+
 .on, .off{
     display: none;
 }
-.portfolio-body, .blog-body{
-    grid-template-rows: auto;
-}
 .portfolio-csy1018, .portfolio-csy1019
 {
-    background-color: rgb(144, 240, 144);
+    background:  linear-gradient(rgba(97, 226, 147, 0.5), rgba(3, 109, 100, 0.5)), url(background.jpeg);
     width: 80%;
-    height: 900px;
+    height: 600px;
     border-radius: 1em;
     margin-left: 10%;
     margin-top: 50px;
@@ -148,7 +153,7 @@ footer{
     font-weight: bold; 
     text-align: center;
     justify-content: center;
-    box-shadow: 0px 5px 15px 0px rgba(21, 219, 81, 0.849);
+    box-shadow: 0px 5px 15px 0px rgba(241, 243, 241, 0.849);
 }
 .thumbnail-placeholder{
     width: 80%;
@@ -198,7 +203,7 @@ section h1{
     flex-basis: 40%;
     padding: 40px;
     background:  rgb(144, 240, 144);
-    height: 200px;
+    height: 220px;
     width: 60%;
     margin-top: 8%;
     margin-bottom: 6%;
@@ -269,6 +274,7 @@ tr h2, tr p{
 .blog-csy1018, .blog-csy1019, .blog-csy1020
 {
     background-color: rgb(144, 240, 144);
+    color: white;
     width: 80%;
     height: 600px;
     border-radius: 1em;
@@ -281,4 +287,11 @@ tr h2, tr p{
     text-align: center;
     justify-content: center;
     box-shadow: 0px 5px 15px 0px rgba(21, 219, 81, 0.849);
+}
+.portfolio-csy1018:hover, .portfolio-csy1019:hover {
+    border-radius: 5px;
+    border: 5px solid white;
+}
+.csy1018, .csy1019{
+    padding-top: 200px;
 }
