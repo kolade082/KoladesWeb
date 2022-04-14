@@ -311,4 +311,21 @@ tr h2, tr p{
     width: 80%;
     margin-left: 7.5%;
 }
+.site-report-main img{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+.intro1{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    width: 90%;
+}
+.intro2, .intro3{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
