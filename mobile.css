@@ -18,11 +18,12 @@ body{
 }
 nav ul{
     font-size: 20px;
-    font-weight: 600;    
+    font-weight: 600; 
+    transition: 400ms ease-in-out;   
 }
 nav ul li{
     list-style: none;
-    padding: 10px;
+    padding: 13px;
 }
 .nav li:hover {
     display: block;
@@ -211,7 +212,7 @@ section h1{
     margin-left: 10%;
     border-radius: 0.5em;
     justify-content: center;
-    box-shadow: 0px 5px 15px 0px rgba(21, 219, 81, 0.849);
+    background:  linear-gradient(rgba(97, 226, 147, 0.5), rgba(3, 109, 100, 0.5)), url(background.jpeg);
     display: block;
 }
 .contacts-details .myinput{
@@ -273,7 +274,7 @@ tr h2, tr p{
 }
 .blog-csy1018, .blog-csy1019, .blog-csy1020
 {
-    background-color: rgb(144, 240, 144);
+    background:  linear-gradient(rgba(97, 226, 147, 0.5), rgba(3, 109, 100, 0.5)), url(background.jpeg);
     color: white;
     width: 80%;
     height: 600px;
@@ -292,6 +293,21 @@ tr h2, tr p{
     border-radius: 5px;
     border: 5px solid white;
 }
-.csy1018, .csy1019{
-    padding-top: 200px;
+
+.csy1018-main, .csy1019-main{
+    padding-top: 100px;
+    padding-bottom: 100px; 
+    font-size: 20px;
+    padding-top: 100px;
+    color: black;
+}
+.csy1018-content, .csy1019-content{
+    background:  linear-gradient(rgba(97, 226, 147, 0.5), rgba(3, 109, 100, 0.5)), url(background.jpeg);
+    border-radius: 1em;
+    padding-top: 50px;
+    padding-left: 1em;
+    height: 100%;
+    width: 80%;
+    left: 10%;
+    position: relative;
 }
