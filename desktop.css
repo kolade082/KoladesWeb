@@ -189,7 +189,7 @@ section h1{
 .contact-right{
     flex-basis: 40%;
     padding: 40px;
-    background:  rgb(144, 240, 144);
+    background:  linear-gradient(rgba(97, 226, 147, 0.5), rgba(3, 109, 100, 0.5)), url(background.jpeg);
     height: 300px;
     margin-top: 15%;
     margin-right: 5%;
@@ -273,7 +273,7 @@ tr h2, tr p{
 
 .blog-csy1018, .blog-csy1019, .blog-csy1020
 {
-    background-color: rgb(144, 240, 144);
+    background:  linear-gradient(rgba(97, 226, 147, 0.5), rgba(3, 109, 100, 0.5)), url(background.jpeg);
     color: white;
     width: 30.1%;
     height: 600px;
@@ -296,10 +296,19 @@ tr h2, tr p{
 }
 .csy1018-main, .csy1019-main{
     margin-top: 100px;
+    margin-bottom: 100px;
     width: 90%;
     position: relative;
     left: 5%;
-    font-size: 30px;
-    color: white;
-    background-color: rgb(144, 240, 144);
+    font-size: 40px;
+    color: black;
+    background-color: red;
+}
+.csy1018-content, .csy1019-content{
+    background:  linear-gradient(rgba(97, 226, 147, 0.5), rgba(3, 109, 100, 0.5)), url(background.jpeg);
+    border-radius: 1em;
+    padding-top: 50px;
+    padding-left: 1em;
+    height: 100%;
+    
 }
