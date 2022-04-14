@@ -312,3 +312,22 @@ tr h2, tr p{
     height: 100%;
     
 }
+.site-report-1{
+    display: flex;
+}
+.intro1{
+    margin-top: 130px;
+    margin-left: 5%;
+    width: 60%;
+    font-size: 30px;
+}
+.sr{
+    margin-top: 110px;
+    width: 400px;
+    height: 250px;
+}
+.intro2{
+    margin-left: 5%;
+    width: 90%;
+    font-size: 30px;
+}

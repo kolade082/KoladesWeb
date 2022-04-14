@@ -13,13 +13,14 @@ body{
     position: fixed;
     left: 60%;
     width: 40%;
+    top: 6.5%;
     height: 100vh;
     background-color: rgb(160, 160, 155);
+    transition: 400ms ease-in-out;   
 }
 nav ul{
     font-size: 20px;
     font-weight: 600; 
-    transition: 400ms ease-in-out;   
 }
 nav ul li{
     list-style: none;
@@ -27,8 +28,8 @@ nav ul li{
 }
 .nav li:hover {
     display: block;
-    border-radius: 5px;
-    height: 20px;
+    border-radius: 7px;
+    height: 35px;
     background-color: white;
 }
 .welcome{
@@ -308,6 +309,6 @@ tr h2, tr p{
     padding-left: 1em;
     height: 100%;
     width: 80%;
-    left: 10%;
-    position: relative;
+    margin-left: 7.5%;
 }
+
