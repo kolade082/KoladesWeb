@@ -312,7 +312,7 @@ tr h2, tr p{
     height: 100%;
     
 }
-.site-report-1{
+.split1{
     display: flex;
 }
 .intro1{
@@ -321,13 +321,29 @@ tr h2, tr p{
     width: 60%;
     font-size: 30px;
 }
-.sr{
+.sr, .sr4{
     margin-top: 110px;
-    width: 400px;
-    height: 250px;
+    width: 450px;
+    height: 280px;
 }
 .intro2{
     margin-left: 5%;
     width: 90%;
+    font-size: 30px;
+}
+.sr2{
+    margin-top: 50px;
+    margin-left: 4%;
+    margin-bottom: 50px;
+    width: 45%;
+    height: 350px;
+}
+.sr4{
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.intro3{
+    margin-top: 20px;
+    width: 60%;
     font-size: 30px;
 }
