@@ -315,18 +315,13 @@ input{
     width: 80%;
     margin-left: 10%;
     margin-bottom: 20px;
-}
-.intro1{
-    margin-top: 60px;
-    margin-bottom: 20px;
-    margin-left: 5%;
-    width: 90%;
-}
-.intro2, .intro3{
-    width: 90%;
-    margin-left: 5%;
-    margin-bottom: 20px;
     margin-top: 20px;
+}
+.intro1, .intro2, .intro3, .intro4, .intro5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    width: 90%;
 }
 .split1 h2{
     margin-top: 80px;
