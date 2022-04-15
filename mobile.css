@@ -183,18 +183,22 @@ footer{
 .contacts{
     display: block;
 }
-section h1{
+section h2{
     font-size: 30px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 20px;
     color: black;
 } 
 .contact-body{
     grid-template-rows:auto;
 }  
-.contact-left h1{
+.contact-left h2{
     margin-top: 40px;
     margin-bottom: 20px;
+}
+.contact-head{
+    text-align: center;
+    justify-content: center;
 }
 .contacts-details{
     display: block;
@@ -205,11 +209,11 @@ section h1{
     flex-basis: 40%;
     padding: 40px;
     background:  rgb(144, 240, 144);
-    height: 220px;
+    height: 180px;
     width: 60%;
     margin-top: 8%;
     margin-bottom: 6%;
-    padding-left: 10%;
+    padding-left: 13%;
     margin-left: 10%;
     border-radius: 0.5em;
     justify-content: center;
@@ -257,10 +261,6 @@ input{
 }
 .contact-content{
     display: inline-block;
-}
-tr h2, tr p{
-    font-size: 50px;
-    font-weight: bold;
 }
 .contact-right a{
     font-size: 40px;
@@ -327,5 +327,8 @@ tr h2, tr p{
     margin-left: 5%;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+.split1 h2{
+    margin-top: 80px;
 }
 

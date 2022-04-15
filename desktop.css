@@ -172,12 +172,15 @@ footer{
 .contact-body{
     grid-template-rows: auto;
 }  
-section h1{
-    font-size: 35px;
-    text-align: center;
+section h2{
+    font-size: 40px;
     margin-bottom: 20px;
     color: black;
 } 
+.contact-head{
+    text-align: center;
+    justify-content: center;
+}
 .contacts{
     display: flex;
 }
@@ -191,7 +194,7 @@ section h1{
     padding: 40px;
     background:  linear-gradient(rgba(97, 226, 147, 0.5), rgba(3, 109, 100, 0.5)), url(background.jpeg);
     height: 300px;
-    margin-top: 15%;
+    margin-top: 13%;
     margin-right: 5%;
     border-radius: 0.8em;
     box-shadow: 0px 5px 15px 0px rgba(21, 219, 81, 0.849);
@@ -246,13 +249,6 @@ label{
 }
 .mycontact{
     display: block;
-}
-.contact-content{
-    display: inline-block;
-}
-tr h2, tr p{
-    font-size: 50px;
-    font-weight: bold;
 }
 .contact-right a{
     font-size: 80px;
@@ -312,26 +308,28 @@ tr h2, tr p{
     height: 100%;
     
 }
-.split1{
+/* .split1, .split3{
     display: flex;
-}
+} */
 .intro1{
-    margin-top: 130px;
-    margin-left: 5%;
-    width: 60%;
+    margin-top: 30px;
+    margin-right: 10%;
+    width: 100%;
     font-size: 30px;
 }
-.sr, .sr4{
-    margin-top: 110px;
+.sr{
+    margin-top: 20px;
+    margin-left: 5%;
     width: 450px;
     height: 280px;
+    float: inline-start;
 }
-.intro2{
+.intro2, .intro4{
     margin-left: 5%;
     width: 90%;
     font-size: 30px;
 }
-.sr2{
+.sr2, .sr5{
     margin-top: 50px;
     margin-left: 4%;
     margin-bottom: 50px;
@@ -340,12 +338,27 @@ tr h2, tr p{
 }
 .sr4{
     margin-right: 5%;
-    margin-top: 15px;
-    position: relative;
+    margin-top: 95px;
+    width: 450px;
+    height: 280px;
+    float: inline-end;    
 }
 .intro3{
     margin-top: 20px;
-    width: 60%;
+    width: 100%;
     font-size: 30px;
     margin-left: 4%;
+}
+section h2{
+    text-align: center;
+    justify-content: center;   
+}
+.split1 h2{
+    margin-top: 110px;
+}
+.split2 h2{
+    margin-top: 100px;
+}
+.split4 h2{
+    margin-top: 20px;
 }
