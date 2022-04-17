@@ -16,7 +16,7 @@ body{
     top: 6.5%;
     height: 100vh;
     background-color: rgb(160, 160, 155);
-    transition: 400ms ease-in-out;   
+    opacity: 0.9;
 }
 nav ul{
     font-size: 20px;
@@ -25,12 +25,15 @@ nav ul{
 nav ul li{
     list-style: none;
     padding: 13px;
+    transform: translate(0, 60%);
+    transition: transform 0.5s ease-in;
 }
 .nav li:hover {
     display: block;
     border-radius: 7px;
     height: 35px;
     background-color: white;
+    padding: 2%;
 }
 .welcome{
     font-size: 50px;
@@ -45,6 +48,7 @@ nav ul li{
     font-weight: bolder;
     color: white;
     text-align: center;
+    justify-content: center;
 }
 .title{
     position: fixed;
@@ -87,9 +91,12 @@ footer{
     font-size: 30px;
 }
 .index-main{
-    background: linear-gradient(rgba(28, 216, 24, 0.5), rgba(6, 207, 33, 0.5)), url(display.jpeg);
+    background: linear-gradient(rgba(97, 226, 147, 0.5), rgba(3, 109, 100, 0.5)), url(display.jpeg);
     width: 100%;
     box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+.index-body{
+    grid-template-rows: 0 50vh;
 }
 .shownav{
     height: 0.8em;
@@ -273,12 +280,22 @@ input{
     justify-content: space-between;
     letter-spacing: 5px;
 }
+.blog-csy1018 h1, .blog-csy1019 h1, .blog-csy1020 h1{
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.blog-csy1018 h2, .blog-csy1019 h2, .blog-csy1020 h2{
+    color: black;
+    font-size: 30px;
+    font-weight: lighter;
+}
 .blog-csy1018, .blog-csy1019, .blog-csy1020
 {
     background:  linear-gradient(rgba(97, 226, 147, 0.5), rgba(3, 109, 100, 0.5)), url(background.jpeg);
     color: white;
     width: 80%;
-    height: 600px;
+    height: 630px;
     border-radius: 1em;
     margin-left: 10%;
     margin-top: 50px;
