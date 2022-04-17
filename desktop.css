@@ -12,7 +12,7 @@ body{
     background-position: center;
 }
 .index-body{
-    grid-template-rows: 0 65vh;
+    grid-template-rows: 0 70vh;
 }
 nav{
     display: flex;
@@ -51,7 +51,7 @@ header{
     box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
 }
 .index-main{
-    background: linear-gradient(rgba(28, 216, 24, 0.5), rgba(6, 207, 33, 0.5)), url(display.jpeg);
+    background: linear-gradient(rgba(97, 226, 147, 0.5), rgba(3, 109, 100, 0.5)), url(display.jpeg);
     width: 100%;
     box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
 }
@@ -68,12 +68,12 @@ header{
     font-size: 50px;
     font-weight: 550;
     text-align: center;
-    margin-right: 90px;
     color: white;
+    justify-content: center;
 }
 aside img{
-    width: 380px;
-    height: 400px;
+    width: 500px;
+    height: 550px;
     border-radius: 1em;
     box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
 }
@@ -86,12 +86,11 @@ aside img{
 .top p{
     font-size: 50px;
     width: 60%;
-    margin-top: 10%;
+    margin-top: 13%;
     margin-left: 50px;
     color: white;
 }
 .bottom{
-    display: flex;
     justify-content: center;
     margin-top: 15px;
     margin-left: 50px;
@@ -102,7 +101,8 @@ aside img{
     width: 50%;
     margin-top: 10%;
     color: white;
-    margin-left: 50px;
+    margin-right: 50px;
+    float: inline-end;
 }
 .portfolio-main{
     display: flex;
@@ -266,7 +266,16 @@ label{
     display: flex;
     align-items: center;
 }
-
+.blog-csy1018 h1, .blog-csy1019 h1, .blog-csy1020 h1{
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.blog-csy1018 h2, .blog-csy1019 h2, .blog-csy1020 h2{
+    color: black;
+    font-size: 30px;
+    font-weight: lighter;
+}
 .blog-csy1018, .blog-csy1019, .blog-csy1020
 {
     background:  linear-gradient(rgba(97, 226, 147, 0.5), rgba(3, 109, 100, 0.5)), url(background.jpeg);
@@ -308,11 +317,8 @@ label{
     height: 100%;
     
 }
-/* .split1, .split3{
-    display: flex;
-} */
 .intro1{
-    margin-top: 30px;
+    margin-top: 60px;
     margin-right: 10%;
     width: 100%;
     font-size: 30px;
